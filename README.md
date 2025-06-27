@@ -24,15 +24,16 @@
 
 ## 实验思路  
 
-### 数据理解与预处理
-- 数据加载
-读取nigerian-songs.csv文件，检查字段类型、缺失值（如popularity是否有空值）。
+### 数据理解与预处理  
 
--特征选择
-仅保留数值型特征（如danceability、energy、loudness等），剔除文本或分类变量（如歌曲名、艺术家）。
+- 数据加载  
+读取nigerian-songs.csv文件，检查字段类型、缺失值（如popularity是否有空值）。  
 
--数据标准化
-使用StandardScaler对特征标准化，消除量纲影响（如tempo和loudness的单位差异）。
+-特征选择  
+仅保留数值型特征（如danceability、energy、loudness等），剔除文本或分类变量（如歌曲名、艺术家）。  
+
+-数据标准化  
+使用StandardScaler对特征标准化，消除量纲影响（如tempo和loudness的单位差异）。  
 
 ### 探索性分析
 -相关性分析
