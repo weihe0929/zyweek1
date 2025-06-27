@@ -5,8 +5,8 @@
 ## 数据集
 ### 数据文件：nigerian-songs.csv   
 
-- name: 歌曲的名称。
-album: 歌曲所属的专辑名称。
+- name: 歌曲的名称。  
+- album: 歌曲所属的专辑名称。
 artist: 演唱该歌曲的艺术家。
 artist_top_genre: 艺术家的主要音乐流派。
 release_date: 歌曲的发布日期。
